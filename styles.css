@@ -1,0 +1,59 @@
+body {
+    background-color: #E2AEA2;
+    font-family: "inter";
+    color:white;
+}
+
+.dark-theme {
+    background-color: #9583A7;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-text {
+    width: 600px;
+    margin-right: 30px;
+    align-self: center;
+}
+
+#profile {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}
+
+#toggle {
+    width: 40px;
+    height: 40px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
