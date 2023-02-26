@@ -1,18 +1,8 @@
+/* general layout */
 body {
     background-color: #E2AEA2;
     font-family: "inter";
     color:white;
-}
-
-.dark-theme {
-    background-color: #9583A7;
-}
-
-button {
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
 }
 
 .container {
@@ -31,6 +21,7 @@ p {
     font-size: 20px;
 }
 
+/* intro section */
 .intro {
     display: flex;
     flex-direction: row;
@@ -48,12 +39,25 @@ p {
     padding: 30px;
 }
 
-#toggle {
-    width: 40px;
-    height: 40px;
-}
-
+/* footer */
 .footer {
     position: fixed;
     bottom: 0;
+}
+
+/* dark mode */
+.dark-theme {
+    background-color: #9583A7;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#toggle {
+    width: 40px;
+    height: 40px;
 }
