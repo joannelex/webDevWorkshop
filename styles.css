@@ -1,6 +1,7 @@
 /* general layout */
 body {
     background-color: #E2AEA2;
+    transition: 0.4s ease-in-out;
     font-family: "inter";
     color:white;
 }
@@ -48,6 +49,7 @@ p {
 /* dark mode */
 .dark-theme {
     background-color: #9583A7;
+    transition: 0.4s ease-in-out;
 }
 
 button {
